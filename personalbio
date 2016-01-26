@@ -1,24 +1,32 @@
-structure
-<html> <body> <hr> <br>
+<html>
 
-semantic
-<hl><p><ul><ol><li>
-
-<ul>
- <li>list item one</li>
- <li>another itemsub item</li>
-  <ol>
-    <li>sub item</li>
-    <li>another item</li>
-  <ol>
- </li>
-<ul>
-
-<a href="http://google.com" target="_blank">link txt</a>
-
-<div>
-  <hl>helloWOrld</h>
+<div id="heading">
+  <h1>Qian Wu</h1>
+  <h2>Personal Bio Page</h2>
 </div>
-relative
-root
-absolute
+
+<hr></hr>
+
+<p> I'm a undergraduate student majoring in Biomedical Engineering at Washington University in St. Louis</p>
+
+<br> </br>
+
+<p> 
+
+<ul>
+  <li>list item one</li>
+  <li>another item
+    <ol>
+      <li>sub item</li>
+      <li>another one</li>
+    </ol>
+  </li>
+</ul>
+
+
+
+<a href="#heading">link text</a>
+...
+
+
+</html>
