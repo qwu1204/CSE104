@@ -24,11 +24,11 @@ p.firstp{
 	color: red;
 }
 
-img.centerImage
+img.rightImage
 {
   display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: 20px;
 }
 
 hr{
@@ -38,9 +38,16 @@ hr{
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 4px;
+    border-width: 2px;
 	
 }
+
+iframe.centerVideo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 </style>
 </head>
@@ -48,21 +55,57 @@ hr{
  
 <h1>Qian Wu</h1>
 <h2>Undergraduate Student</h2>
+<img src="http://berezinlab.wustl.edu/Files/People/Qian%20Wu2%20small.jpg" class="rightImage" alt="Qian Wu" >
+
 <br>
 <hr>
-<p>I am an undergraduate student majoring in Biomedical Engineering.</p>
+<p>I am an undergraduate student majoring in Biomedical Engineering at Washington University in St. Louis. I discovered my interest for computer science in my computational oriented research, and therefore plan to apply for a Computer Science Master after graduation. 
+</p>
  <br>
- <p>My research interests include biomedical image processing and computer graphics. </p>
+ <p>My research interests include biomedical image processing and computer graphics. I have worked on two imaging processing software so far. The first one is for hyperspectral imaging of biological specimens. The goal is to analyze the pattern hidden underneath surface through optical properties, and it is able to tell the difference in water content between two leaves that have left the branch for 12h and 24h, respectively.
+ The second project is for cardiac optical mapping, which quantify the heterogeneity through a systematic, object manner. The program provides 3 different methods and run a machine learning algorithm to determine the final heterogeneity level of the cardiac data. It is proven to provide 90% accuracy with manually determined levels.</p>
  <br>
- <p>I also enjoy post rock and instrumental music.</p>
+ 
  <hr>
  <h3>Location</h3>
  <p>St. Louis Missouri USA</p>
  <br>
+ 
  <h3>Experience</h3>
  <ul>
- <li>Undergraduate research assistant, Mikhail Berezin's Lab, 2015-2016</li>
- <li>Undergraduate research assistant, Ances Beau's Lab, 2014-2015</li>
+ <li>Independent research, Berezin Lab, Washington University School of Medicine, Dept. of Radiology, Jan 2015-Present</li>
+ <p>Developing a customized Graphical User Interface, Datacube 3.0, for hyperspectral diagnostics of biological specimens in short wave infrared optical range that performs: image subtraction, division, image comparison, histogram analysis, bandwidth analysis, Region of Interest analysis, Principal Component Analysis, and more. </p>
+ 
+ <br>
+ <li>Independent research, Ances Neuroimaging Lab, Washington University School of Medicine, Feb 2014-May 2015</li>
+ <ul>
+ <li>Investigated the effects of two HAART medications on functional connectivity and cerebral blood flow in HIV- subjects and found short exposure to efavirenz and ritonavir was not associated with detectable changes.</li>
+ <li>Developed an automatic protocol using MATLAB and Linux commands that includes raw image processing, data extraction, and statistical tests on resting state functional connectivity MRI scans of 20 subjects.</li>
  </ul>
+ 
+ <br>
+ <li>International Community Service Learning Project, Washington University, June 17 - 31, 2015</li>
+ <ul>
+ <li>Learned to diagnose lower limb deformities, production of ankle foot orthosis and its fitting and fabrication at Hong Kong Polytechnic University, Prosthetics and Orthotics Department.</li>
+ <li>Fabricated orthotics for sixty children with cerebral palsy in Heyuan, China. </li>
+ </ul>
+ <br>
+<iframe class = "centerVideo" width="420" height="315"
+src="http://www.youtube.com/embed/bqPjW8ulkZA?autoplay=0">
+</iframe>
+ 
+ </ul>
+ <br>
+ <h3>Publications</h3>
+ <ul>
+ <li>Brier, M., Wu, Q., Tanenbaum, A., Westerhaus, E., Kharasch, E., & Ances, B. (2015). Effect of HAART on Brain Organization and Function in HIV-Negative Subjects. Journal of Neuroimmune Pharmacology J Neuroimmune Pharmacol. DOI: 10.1007/s11481-015-9634-9</li>
+ <br>
+ <li>Zhang, H., Wu, Q., & Berezin, M. (2015). Fluorescence Anisotropy (polarization): from Drug Screening to Precision Medicine. Expert Opinion on Drug Discovery, 1145-1161., DOI: 10.1517/17460441.2015.1075001</li>
+ <br>
+ <li>Kim, D., Zhang, H., Zhou, H., Du, T., Wu, Q., Mockler, T., & Berezin, M. (2015). Highly Sensitive Image-derived Indices of Water-stressed Plants Using Hyperspectral Imaging in SWIR and Histogram Analysis. Sci. Rep. Scientific Reports, DOI: 10.1038/srep15919</li>
+ </ul>
+ 
+ <br>
+ <a href="http://wustl.edu/"> Click here for Washington University website</a>
  </div></body>
 </html>
